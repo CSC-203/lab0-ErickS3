@@ -6,7 +6,7 @@ public class Lab00
       String y = "hello";
       float z = 9.8F;
 
-      System.out.println("x:"+ x + "y:" + y + "z:" + z);
+      System.out.println("x: " + x + " y: " + y + " z: " + z);
 
 
    }
