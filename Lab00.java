@@ -17,5 +17,8 @@ public class Lab00
       Lst.add(-1);
       Lst.add(2);
 
+      for (Lst; i <= 10; i = i +2);
+         System.out.println(i);
+
    }
 }
