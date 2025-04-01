@@ -11,14 +11,14 @@ public class Lab00
 
       System.out.println("x: " + x + " y: " + y + " z: " + z);
 
-      List<Integer> Lst = new ArrayList<>();
-      Lst.add(3);
-      Lst.add(6);
-      Lst.add(-1);
-      Lst.add(2);
+      List<Integer> nums = new ArrayList<>();
+      nums.add(3);
+      nums.add(6);
+      nums.add(-1);
+      nums.add(2);
 
-      for (Lst; i <= 10; i = i +2);
-         System.out.println(i);
-
+      for(int num : nums) {
+         System.out.println(num);
+      }
    }
 }
