@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Lab00
 {
    public static void main(String[] args)
@@ -8,6 +11,11 @@ public class Lab00
 
       System.out.println("x: " + x + " y: " + y + " z: " + z);
 
+      List<Integer> Lst = new ArrayList<>();
+      Lst.add(3);
+      Lst.add(6);
+      Lst.add(-1);
+      Lst.add(2);
 
    }
 }
