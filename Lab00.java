@@ -39,9 +39,9 @@ public class Lab00
             count = count + 1;
 
          }
-         System.out.println(count);
-      }
 
+      }
+       return count;
    }
 
 }
