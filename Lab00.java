@@ -20,5 +20,10 @@ public class Lab00
       for(int num : nums) {
          System.out.println(num);
       }
+
+      for(int i = 1; i < 11; i++){
+         System.out.print(i + " ");
+      }
+
    }
 }
