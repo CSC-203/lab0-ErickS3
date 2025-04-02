@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class Lab00
 {
@@ -11,19 +9,19 @@ public class Lab00
 
       System.out.println("x: " + x + " y: " + y + " z: " + z);
 
-      List<Integer> nums = new ArrayList<>();
-      nums.add(3);
-      nums.add(6);
-      nums.add(-1);
-      nums.add(2);
+      int[] nums = {3, 6, -1, 2};
 
       for(int num : nums) {
          System.out.println(num);
       }
 
+
       for(int i = 1; i < 11; i++){
          System.out.print(i + " ");
       }
+
+
+
 
    }
 }
