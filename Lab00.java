@@ -21,8 +21,8 @@ public class Lab00
 
 
       //calling a function
-      int numFound = char_count(y, "l");
-      System.out.println("Found:" +  numFound);
+      int numFound = char_count(y, 'l');
+      System.out.println("Found:" + " " + numFound);
 
 
       //a counting for loop
@@ -32,10 +32,10 @@ public class Lab00
 
    }
 
-   public static int char_count(String s, String c){
+   public static int char_count(String s, char c){
       int count = 0;
-      for(String ch : s){
-         if(ch.equals(c)){
+      for(char ch: s.toCharArray()){
+         if(ch == c){
             count = count + 1;
 
          }
