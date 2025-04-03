@@ -32,6 +32,7 @@ public class Lab00
 
    }
 
+
    public static int char_count(String s, char c){
       int count = 0;
       for(char ch: s.toCharArray()){
